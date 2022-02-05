@@ -1,5 +1,5 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
-version: '3.8'
+version: '3'
 services:
   backend-postgresql:
     image: postgres:14.1
@@ -7,7 +7,8 @@ services:
     #   - ~/volumes/jhipster/backend/postgresql/:/var/lib/postgresql/data/
     environment:
       - POSTGRES_USER=backend
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=backend
+      - POSTGRES_DB=backend
       - POSTGRES_HOST_AUTH_METHOD=trust
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
