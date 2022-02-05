@@ -629,7 +629,7 @@
                                 <rules>
                                     <DependencyConvergence />
                                     <requireJavaVersion>
-                                        <version>11</version>
+                                        <version>11.0.0</version>
                                     </requireJavaVersion>
                                 </rules>
                                 <fail>false</fail>
@@ -925,18 +925,18 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
-            <!--
-                Profile for tracing requests with Zipkin.
-            -->
-            <id>zipkin</id>
-            <dependencies>
-                <dependency>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-zipkin</artifactId>
-                </dependency>
-            </dependencies>
-        </profile>
+<!--        <profile>-->
+<!--            &lt;!&ndash;-->
+<!--                Profile for tracing requests with Zipkin.-->
+<!--            &ndash;&gt;-->
+<!--            <id>zipkin</id>-->
+<!--            <dependencies>-->
+<!--                <dependency>-->
+<!--                    <groupId>org.springframework.cloud</groupId>-->
+<!--                    <artifactId>spring-cloud-starter-zipkin</artifactId>-->
+<!--                </dependency>-->
+<!--            </dependencies>-->
+<!--        </profile>-->
         <profile>
             <!--
                 Profile for applying IDE-specific configuration.
