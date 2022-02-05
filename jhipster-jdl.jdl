@@ -3,6 +3,11 @@ entity Region {
 	regionName String
 }
 
+entity CheckTest {
+	check String
+	name String
+}
+
 entity Country {
 	countryName String
 }

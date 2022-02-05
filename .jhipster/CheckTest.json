@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20220205075742",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "check_test",
+  "fields": [
+    {
+      "fieldName": "check",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CheckTest",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
