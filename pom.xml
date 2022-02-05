@@ -628,6 +628,9 @@
                             <configuration>
                                 <rules>
                                     <DependencyConvergence />
+                                    <requireJavaVersion>
+                                        <version>11</version>
+                                    </requireJavaVersion>
                                 </rules>
                                 <fail>false</fail>
                             </configuration>
